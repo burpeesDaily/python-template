@@ -1,5 +1,5 @@
 """Description about this module."""
 
-from package.bin import entry
+from my_package.bin import entry
 
 entry.main()
