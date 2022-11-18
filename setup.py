@@ -25,5 +25,5 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     entry_points={"console_scripts": ["entry=package.bin.entry:main"]},
     install_requires=[],
-    python_requires=">=3.9",
+    python_requires=">=3.11",
 )
