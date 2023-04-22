@@ -1,0 +1,19 @@
+[project]
+name = "package_name"
+version = "0.0.1"
+authors = [
+    {name="Shun Huang", email="shun@formosa1544.com"}
+]
+description = "Package description"
+readme = {file = "README.rst", content-type = "text/x-rst"}
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.setuptools.packages.find]
+exclude = ["tests"]
+
+[project.urls]
+repository = "https://github.com/burpeesDaily/python-template"
+
+[project.scripts]
+project-entry = "package.bin.entry:main"
