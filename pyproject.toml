@@ -7,6 +7,7 @@ authors = [
 description = "Package description"
 readme = {file = "README.rst", content-type = "text/x-rst"}
 requires-python = ">=3.11"
+license = {text = "MIT License"}
 dependencies = []
 
 [tool.setuptools.packages.find]
