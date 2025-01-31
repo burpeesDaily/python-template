@@ -1,4 +1,5 @@
 """Unit test example."""
+
 from my_package import my_module
 from my_package.sub_package import sub_module
 
